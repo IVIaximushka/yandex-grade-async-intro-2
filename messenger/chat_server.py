@@ -2,7 +2,7 @@ import asyncio
 import datetime
 import logging
 import sys
-from asyncio import StreamWriter, StreamReader
+from asyncio import StreamReader, StreamWriter
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
